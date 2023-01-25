@@ -1,0 +1,108 @@
+FONTES
+====================================================================================================
+
+As fontes são configuradas nas CSS, podendo alterar a Família Tipográfica, o Tamanho, o Alinhamento, o Peso e o Estilo.
+
+----------------------------------------------------------------------------------------------------
+
+FAMÍLIA TIPOGRÁFICA
+
+A propriedade "font-size" especifica a fonte que será utilizada, podendo utilizar uma família de fontes, como "times", "courier" e "arial", ou utilizando uma família genérica, como "serif", "sans-serif", "cursive", "fantasy" e "monospace". É recomendado especificar mais de uma família na sequência e uma família genérica no final, assim o navegador dará preferência para a primeira, e caso não seja encontrada, ele tentará encontrar a segunda, e assim por diante.
+
+----------------------------------------------------------------------------------------------------
+
+TAMANHO
+
+Para alterar o tamanho das fontes, é utilizada a propriedade "font-size". Nessa propriedade, pode-se utilizar diversos tipos de medidas, pondendo elas serem Absolutas ou Relativas, onde as mais populares são as seguintes: 
+
+    MEDIDAS ABSOLUTAS
+    As Medidas Absolutas são as medidas que têm um tamanho próprio, que não se altera, independente da tela utilizada.
+
+        - cm (centímetro) --> A medida "cm" é bem conhecida por seu uso diário, pois as medidas da mesma nas fontes é a mesma da utilizada no dia a dia. Seu uso não é recomendado.
+
+        - mm (milímetro) --> A medida "mm" é equivalente a 0,1cm, ou seja, é 10 vezes menor que o centímetro. Seu uso não é recomendado.
+
+        - in (polegada) --> A medida "in" (inch, no inglês) também é mais conhecida, sendo bastante utilizada nos Estados Unidos, onde 1in é igual a 2,54cm. Seu uso não é recomendado.
+
+        - px (pixel) --> A medida "px" é conhecida como a unidade mágica das CSS. O Pixel é o que compõe as telas que utilizamos, usando isso como base para a medida. Seu uso é recomendado, mas deve ser usado com atenção. 
+
+        - pt (ponto) --> A medida "pt" é uma medida utilizada em papéis. O tamanho do Ponto variou ao longo dos anos de 0,18mm a 0,4mm. Seu uso não é recomendado.
+
+        - pc (paica) --> A medida "pc" é uma medida utilizada em papéis. O tamanho da Paica é igual a um sexto de polegada, sendo equivalente a 4,23mm. Seu uso não é recomendado.
+
+    MEDIDAS RELATIVAS
+    As Medidas Relativas são as medidas que têm um tamanho que pode variar, usando a relatividade como base.
+
+        - em --> A medida "em" é referencial ao tamanho original da fonte, que geralmente são equivalentes a 16px. Seu uso é bastante recomendado.
+
+        - ex --> A medida "ex" é referencial à Altura X de uma fonte. Seu uso não é recomendado.
+
+        - rem --> A medida "rem" é referencial ao Root, fonte que está configurada no Body. Seu uso não é recomendado.
+
+        - vw --> A medida "vw" é referencial à largura da viewport, sendo esta a área que está sendo exibida na tela. Seu uso não é recomendado.
+
+        - vh --> A medida "vh" é referencial à altura da viewport, sendo esta a área que está sendo exibida na tela. Seu uso não é recomendado.
+
+        - % --> A medida "%" é referencial à porcentagem relativa ao bloco onde o elemento está contido. Seu uso não é recomendado.
+
+----------------------------------------------------------------------------------------------------
+
+ALINHAMENTO
+
+Nas CSS, existem quatro formas de alinhar o texto da página, utilizando a propriedade "text-align": 
+
+    - text-align: left --> Para alinha o texto a esquerda da página. Essa é a forma padrão.
+
+    - text-align: right --> Para alinhar o texto a direita da página. 
+
+    - text-align: center --> Para alinhar o texto no centro da página. 
+
+    - text-align: justify --> Para deixar as linhas do texto organizadas com as margens alinhadas.
+
+Uma propriedade importante para se utilizar em textos é a "text-indent". Essa propriedade define o espaçamento que o texto terá no início, iniciando um parágrafo.
+
+----------------------------------------------------------------------------------------------------
+
+PESO
+
+O Peso é a intensidade que uma fonte terá, sendo ela mais preenchida ou menos preenchida. O Peso não é utilizado em fontes simples. Para utilizar o Peso, a propriedade usada é "font-weight", e em seguida especificar o Peso, e há duas maneiras de fazer isso, através de "palavras-chave" ou através de "variações numéricas". 
+
+As Palavras-Chave utilizadas para especificar o peso que a fonte terá são Lighter, Normal, Bold e Bolder. A palavra Lighter deixará a fonte com pouco preenchimento, a palavra Normal deixará a fonte com um preenchimento mais próximo do padrão, a palavra Bold deixará a fonte com mais preenchimento e a palavra Bolder deixará a fonte com bastante preenchimento. Utilizando as Variações Numéricas, é especificado um valor entre 100 e 900, sendo que quanto mais próximo do 100, menos preenchida será a fonte e quanto mais próximo do 900, mais preenchida será a mesma. 
+
+----------------------------------------------------------------------------------------------------
+
+ESTILO
+
+O Estilo, como a palavra sugere, é o estilo que a fonte de um texto terá, e para especificar qual será esse estilo, utiliza-se a propriedade "font-style". Os valores de propriedade são: 
+
+    - normal --> Este é o estilo padrão, onde a fonte é apresentada normalmente.
+
+    - italic --> Este é o estilo que exibe a fonte em itálico.
+
+    - oblique --> Este é o estilo que exibe a fonte em oblíquo.
+
+    - initial --> Este valor define a propriedade para o seu valor padrão.
+
+    - inherit --> Este valor faz com que a propriedade seja herdada de seu elemento pai.
+
+----------------------------------------------------------------------------------------------------
+
+SHORTHAND FONT
+
+Shorthand Font é uma propriedade utilizada para encurtar o código, especificando as propriedades de fonte em uma única. Para utilizá-la, use a propriedade "font" seguida das especificações das demais propriedades, sendo na seguinte ordem: "font-style", "font-weight", "font-size" e "font-family". Por exemplo: 
+
+    font: italic bolder 3em 'Work Sans', sans-serif;
+
+A propriedade acima está informando que a fonte será em Itálico, o peso será Bolder, ou seja, bastante preenchida, o tamanho será de 3em e as famílias especificadas foram "Work Sans" e "sans-serif".
+
+----------------------------------------------------------------------------------------------------
+
+FONTES EXTERNAS
+
+O uso das fontes encontradas nas CSS, muitas vezes pode ser limitado, tendo em vista que existem milhares de outras fontes que podem ser utilizadas, precisando apenas importá-las. Há 3 maneiras de fazê-lo:
+
+    - Extrair de Sites de Fontes --> Há sites que armazenam milhares de famílias tipográficas, entre eles está o Google Fonts e o DaFont. Nesses sites, pode-se escolher alguma família tipográfica e baixá-la (no caso do DaFont) ou copiar o código gerado (no caso do Google Fonts) e colar. 
+
+    - Capturar Fontes de Sites --> Utilizando extensões no navegador, como o Fonts Ninja, é possível selecionar alguma palavra ou texto de um site e pegar as configurações da fonte selecionada, como o nome, o peso, o tamanho, o espaçamento e a cor.
+
+    - Capturar Fontes de Imagens --> Também é possível utilizar sites, como o What Font Is, o Font Squirrel e o My Fonts. Cada um desses site tem uma forma de identificar a fonte utilizada na imagem desejada.

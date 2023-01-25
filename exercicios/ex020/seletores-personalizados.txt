@@ -1,0 +1,230 @@
+SELETORES PERSONALIZADOS
+
+Há determinados elementos que necessitam de personalizações únicas, e quando se trada das CSS, as mesmas irão configurar todos os elementos como um igual, sem exceções. Para mudar isso, existem os seletores de "id" (#) e de "class" (.), além de "pseudo-class" (:), de "pseudo-element" (::) e o "children" (>), chamado também de "filho".
+
+===================================================================================================
+
+ID
+
+O atributo "id" é usado para especificar um elemento HTML. Não se pode ter mais de um elemento com o mesmo id. Abaixo está um exemplo de uso do id:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <style>
+        #titulo-principal {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo-principal">Exemplo de Título</h1>
+</body>
+
+Nota-se que nas CSS, o id é representado por uma cerquilha (#), seguido pelo nome de id especificado no elemento HTML.
+
+===================================================================================================
+
+CLASS
+
+O atributo "class" possui uma função semelhante ao id, mas pode ser usado para especificar mais de um elemento. Abaixo está um exemplo de uso do class:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <style>
+        .capital {
+            font-family: font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Capitais de Países</h1>
+
+    <h2 class="capital">Oslo</h2>
+    <p>Oslo é a capital da Noruega.</p>
+
+    <h2 class="capital">Tóquio</h2>
+    <p>Tóquio é a capital do Japão</p>
+
+    <h2 class="capital">Brasília</h2>
+    <p>Brasília é a capital do Brasil</p>
+</body>
+
+Nota-se que nas CSS, o class é representado por um ponto (.), seguido pelo nome da classe especificado nos elementos HTML. Vale lembrar que um elemento pode ser um id, mas também pode fazer parte de uma classe.
+
+===================================================================================================
+
+CHILDREN
+
+"Children", também chamado de "filhos", são elementos que estão dentro de outro elemento. Nas CSS, são representados pelo símbolo maior que (>).
+
+===================================================================================================
+
+PSEUDO-CLASSES
+
+As "pseudo-classes" são palavras-chave usadas para definir um estado especial de um elemento. Abaixo está um exemplo de uso de pseudo-classe:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Pseudo-classes</title>
+    <style>
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            background-color: rgb(0, 150, 255);
+            border: 1px solid rgb(0, 65, 255);
+            text-align: center;
+            height: 50px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: rgb(0, 65, 255);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selecione a Opção Desejada</h1>
+
+    <div>Opção 01</div>
+    <div>Opção 02</div>    
+    <div>Opção 03</div>
+    <div>Opção 04</div>
+</body>
+</html>
+
+Nota-se que nas CSS, a pseudo-classe é representada por dois pontos (:), primeiro especifica-se quais elementos sofrerão especificações, depois usa-se o ":" e em seguida acrescenta-se qual pseudo-classe será utilizada, que no exemplo acima foi "hover".
+
+As pseudo-classes são as seguintes:
+
+    - :active --> Seleciona o link ativo.
+
+    - :checked --> Seleciona cada elemento marcado.
+
+    - :disable --> Seleciona cada elemento desabilitado.
+
+    - :empty --> Seleciona cada elemento que não possui filho.
+
+    - :enabled --> Seleciona cada elemento ativado.
+
+    - :first-child --> Seleciona cada elemento que é o primeiro filho de seu pai.
+
+    - :first-of-type --> Seleciona cada elemento que é o primeiro elemento de seu pai.
+
+    - :focus --> Seleciona o elemento que possui foco.
+
+    - :hover --> Seleciona os links ao serem passados pela seta do mouse.
+
+    - :in-range --> Seleciona os elementos com um valor dentro de um intervalo especificado.
+
+    - :invalid --> Seleciona todos os elementos com um valor inválido.
+
+    - :lang(idioma) --> Seleciona cada elemento com um valor de atributo "lang", especificando o idioma, através da sigla do mesmo.
+
+    - :last-child --> Seleciona cada elemento que é o último filho de seu pai.
+
+    - :last-of-type --> Seleciona cada elemento que é o último elemento de seu pai.
+
+    - :link --> Seleciona todos os links não visitados.
+
+    - :not(seletor) --> Seleciona todos os elementos que não são o elemento especificado.
+
+    - :nth-child(n) --> Seleciona cada elemento que é o enésimo filho de seu pai, podendo ser especificado um número, uma palavra chave, como odd (par) ou even (ímpar), ou uma fórmula.
+
+    - :nth-last-child(n) --> Seleciona cada elemento que é o enésimo filho de seu pai, contando a partir do último filho.
+
+    - :nth-last-of-type(n) --> Seleciona cada elemento que é o enésimo elemento de seu pai, contando a partir do último filho.
+
+    - :nth-of-type(n) --> Seleciona cada elemento que é o enésimo elemento de seu pai.
+
+    - :only-of-type --> Seleciona cada elemento que é o único elemento de seu pai.
+
+    - :only-child --> Seleciona cada elemento que é o único filho de seu pai.
+
+    - :optional --> Seleciona os elementos sem atributo "obrigatório".
+
+    - :out-of-range --> Seleciona os elementos com um valor fora de um intervalo especificado.
+
+    - :ready-only --> Seleciona os elementos com um atributo "somente de leitura" especificado.
+
+    - :read-write --> Seleciona os elementos sem o atributo "somente de leitura".
+
+    - :required --> Seleciona os elementos com um atributo "obrigatório" especificado.
+
+    - :root --> Seleciona o elemento raiz do documento.
+
+    - :target --> Seleciona o elemento, seguido por um #, ativo atual, clicado em uma URL contendo o nome da âncora).
+
+    - :valid --> Seleciona todos os elementos com um valor válido.
+
+    - :visited --> Seleciona todos os links visitados.
+
+===================================================================================================
+
+PSEUDO-ELEMENTOS
+
+Os "pseudo-elementos" são palavras chaves usadas para estilizar partes especificas de um elemento. Abaixo está um exemplo de uso de pseudo-elemento:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Pseudo-elementos</title>
+    <style>
+        a::before {
+            content: '⟹ ';
+        }
+
+        a::after {
+            content: ' ⟸';
+        }
+    </style>
+</head>
+<body>
+    <h1>Clique em um dos Links Abaixo:</h1>
+
+    <ul>
+        <li><a href="https://link_um.com">Link 01</a></li>
+        <li><a href="https://link_dois.com">Link 02</a></li>
+        <li><a href="https://link_tres.com">Link 03</a></li>
+        <li><a href="https://link_quatro.com">Link 04</a></li>
+    </ul>
+</body>
+</html>
+
+Nota-se que nas CSS, o pseudo-elemento é representado por um duplo dois pontos (::), primeiro especifica-se quais elementos serão estilizados, depois usa-se o "::" e em seguida acrescenta-se qual pseudo-elemento será utilizado, que no exemplo acima foi o "before" e o "after".
+
+Os pseudo-elementos são os seguintes:
+
+    - ::after --> Insere algo após o conteúdo de cada elemento.
+
+    - ::before --> Insere algo antes do conteúdo de cada elemento.
+
+    - ::first-letter --> Seleciona a primeira letra de cada elemento.
+
+    - ::first-line --> Seleciona a primeira linha de cada elemento.
+
+    - ::maker --> Seleciona os marcadores dos itens da lista.
+
+    - ::selection --> Seleciona a parte de um elemento que é selecionado por um usuário.
