@@ -1,0 +1,40 @@
+HARMONIA DAS CORES
+====================================================================================================
+
+Em um site, é de suma importância a escolha das cores que serão utilizadas. As cores precisam ter certa harmonia entre si para que o usuário não canse do design do site e saia da página, além de causar uma sensação de conforto. Tendo isso em mente, podemos começar a estudar sobre a Harmonia de Cores.
+
+CÍRCULO CROMÁTICO
+
+O Círculo Cromático, como o próprio nome sugere, é um círculo que apresenta 12 cores em harmonia, e nesse círculo percebemos que há três grupos de cores: cores primárias, cores secundárias e cores terciárias.
+
+CORES PRIMÁRIAS: As Cores Primárias são as cores que, quando misturadas, podem gerar novas cores, porém, não podem ser obtidas com misturas de outras cores. As Cores Primárias são: Amarelo, Vermelho e Azul.
+
+CORES SECUNDÁRIAS: As Cores Secundárias são cores que são o resultado da mistura de duas cores primárias. As cores são as seguintes: Laranja (amarelo + vermelho), Violeta (vermelho + azul) e Verde (Azul + Amarelo).
+
+CORES TERCIÁRIAS: As Cores Terciárias são cores que são o resultado da mistura de uma cor primária com uma cor secundária. As cores são as seguintes: Amarelo-alaranjado (amarelo + laranja), Vermelho-alaranjado (vermelho + laranja), Vermelho-arroxeado (vermelho + violeta), Azul-arroxeado (azul + violeta), Azul-esverdeado (azul + verde) e Amarelo-esverdeado (amarelo + verde). São cores com tom pastel.
+
+MODOS DE CLASSIFICAÇÃO NO CÍRCULO CROMÁTICO
+
+O Círculo Cromático também pode ser classificado de diversas outras formas para gerar algum tipo de harmonia entre as cores. Esses tipos de classificações podem ser utilizadas na prática em sites como o "Adobe Color", o "Paletton" e o "Coolors".
+
+TEMPERATURA DAS CORES: Dividindo o Círculo Cromático ao meio, é possível visualizar dois grupos de cores, as Cores Frias, que vão do violeta até o verde, e as Cores Quentes, que vão do amarelo até o vermelho-arroxeado.
+    Cores Frias: Essas cores são: Violeta, Azul-arroxeado, Azul, Azul-esverdeado, Verde e Amarelo-esverdeado. Esse grupo de cor está bastante associada a sensações mais calmas, de frescor e de tranquilidade.
+    Cores Quentes: Essas cores são: Amarelo, Amarelo-alaranjado, Laranja, Vermelho-alaranjado, Vermelho e Vermelho-arroxeado. Esse grupo de cor cria uma sensação de calor e proximidade.
+
+CORES COMPLEMENTARES: As cores complementares são aquelas que apresentam o maior contraste entre si. Para saber quais são as cores complementares no circulo cromático, basta escolher uma cor e traçar uma reta até o outro lado.
+
+CORES ANÁLOGAS: As cores análogas são aquelas que, diferente das cores complementares, não apresentam um grande contraste entre si, mas podem criar uma bela harmonia quando são utilizadas juntas. Para saber quais são as cores análogas no círculo cromático, basta escolher uma cor e ver quais são as suas duas cores vizinhas.
+
+CORES ANÁLOGAS E UMA COMPLEMENTAR: Essa técnica uni os dois tipos de classificações anteriores, pois ela pega três cores que possuem uma harmonia entre si e uma outra que possui um grande contraste com ela. Para isso, basta escolher uma cor e ver quais são suas cores vizinhas e a cor que está do outro lado do círculo cromático.
+
+CORES ANÁLOGAS RELACIONADAS: Essa técnica é parecida com as cores análogas simples, ou seja, as cores têm uma harmonia entre si, mas uma delas, apesar de ser uma cor próxima das outras, cria um pouco mais de contraste. Para utilizar esse tipo de harmonia, basta escolher duas cores que são vizinhas e, ao invés de escolher a terceira cor, escolhemos a quarta.
+
+CORES INTERCALADAS: As cores intercaladas é um tipo de classificação um pouco parecida com a técnica anterior, mas ela pega cores que possuem um maior contraste entre si. Para utilizar esse tipo de classificação, basta escolher uma cor e as outras duas cores devem ter a mesma distância dela.
+
+CORES TRIÁDICAS: As cores triádicas é uma técnica que utiliza três cores que possuem contraste entre si. Para utilizar essa técnica, basta escolher uma cor, e as outras duas deverão ter um espaço de três cores dela, isso irá gerar um triângulo equilátero no círculo cromático.
+
+CORES EM QUADRADO: As cores em quadrado é uma técnica bem parecida com a anterior, mas ao invés de utilizar três cores, utilizamos quatro, e cada cor deve ter um espaço de duas cores entre si. Essa técnica permite utilizar cores que possuem um contraste razoável entre si.
+
+CORES TETRÁDICAS: As cores tetrádicas utiliza dois pares de cores complementares, o que garante dois pares de cores que possuem bastante contraste entre si.
+
+MONOCROMIA: Essa técnica é bem diferente das outras, porque ela usa somente uma cor. Ao escolher uma cor, basta modificar sua saturação e seu brilho, e isso irá gerar uma combinação de cores com pouquísimo contraste entre si, mas gera um resultado bem agradável conhecido como Degradê.

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/imagem-pequena.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="imagens/imagem-media.png" type="image/png">
+        <img src="imagens/imagem-grande.png" alt="Imagem Flexível">
+        <source media="(min-width: )" srcset="" type="image/">
+    </picture>
+
+    <p>É muito importante em um site que o tamanho da imagem seja compatível com a largura da página. Caso aconteça de a largura da imagem ser maior do que a largura do site, a página ficará poluída, aumentando a taxa de <abbr title="Bounce Rate, ou Taxa de Rejeição, é uma medida que dá valor ou desvaloriza o site, fazendo com que o navegador pare de recomendar o site para os usuários.">bounce rate</abbr>. Para que o site tenha uma imagem que se adapte a qualquer tamanho de tela, basta utilizar a tag "picture"</p>
+    <p>A tag "picture" faz com que o desenvolvedor consiga ter mais flexibilidade na especificação de recursos de uma imagem.</p>
+    <p>Dentro da tag "picture", utilize a tag "img" (para carregar a imagem desejada) e a tag "source", tag esta que permite que o desenvolvedor especifique quais imagens serão utilizadas, dependendo da largura que a página estiver, para que o site possa se adaptar.</p>
+
+    <hr>
+
+    <h1>Áudios</h1>
+    <p>Aprendendo a reproduzir áudios em sites utilizando HTML5.</p>
+    <audio src="media/brontosaurus-topher-mohr-and-alex-elena.mp3" controls autoplay></audio>
+    <!-- MP3, WAV, OGG -->
+
+    <audio preload="auto" autoplay controls loop>
+        <source src="media/guanacast-33.mp3" type="audio/mpeg">
+        <source src="media/guanacast-33.wav" type="audio/wav">
+        <source src="media/guanacast-33.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador é incompativel com o áudio. <a href="media/guanacast-33.mp3">Clique aqui</a> para baixar o arquivo.</p>
+    </audio>
+</body>
+</html>
